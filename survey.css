@@ -1,0 +1,41 @@
+body {
+    background: #d9b3ff;
+    text-align: center;
+    color: white;
+    margin: 50px auto 0 auto;
+  }
+  #survey-form {
+    color: white;
+    background: #9933ff;
+    width: 800px;
+    display: grid;
+    padding: 50px 0;
+    margin: auto;
+    border-radius: 20px;
+  }
+  .box-control {
+    display: block;
+    width: 300px;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background: white;
+    background-clip: padding-box;
+    border: 1px solid black;
+  }
+  .group {
+    margin: 0 auto 20px auto;
+  }
+  label {display: flex;
+      align-items: center;
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+  }
+  .submit {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.75rem;
+    color: white;
+    background: blue;
+  }
